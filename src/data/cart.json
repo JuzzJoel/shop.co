@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Nike Air Max 270",
+            "imageUrl": " https://picsum.photos/id/100/200/200",
+           "quantity": 1,
+            "price": {
+                "old": 12000,
+                "new": 9000
+            },
+            "discount": 25,
+        
+            "color": ["Black"],
+            "size": ["US 8"],
+            "keywords": ["Nike", "Shoes", "Sneakers"],
+            "category": "Shoes"
+        },
+        {
+            "id": 2,
+            "name": "Adidas Superstar",
+            "imageUrl": " https://picsum.photos/id/104/200/200 ",
+            "quantity": 1,
+            "price": {
+                "old": 8000,
+                "new": 6000
+            },
+            "discount": 25,
+            "description": "Adidas Superstar shoes are classic shell-toe sneakers that are perfect for casual wear.",
+            "color": ["Black"],
+            "size": ["US 7"],
+            "keywords": ["Adidas", "Shoes", "Sneakers"],
+            "category": "Shoes"
+        }
+    ]
+}

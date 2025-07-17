@@ -1,0 +1,940 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Graphic Tee",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1564,
+        "new": 1173
+      },
+      "discount": 25,
+      "description": "Graphic Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Elegant",
+        "Soft"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Formal",
+      "type": "Long Sleeves",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-11-21",
+      "salesCount": 949
+    },
+    {
+      "id": 2,
+      "name": "Urban Tee",
+      "rating": 3.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1234,
+        "new": 1111
+      },
+      "discount": 10,
+      "description": "Urban Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Wearables",
+      "section": "Women",
+      "style": "Casual",
+      "type": "Long Sleeves",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2025-01-20",
+      "salesCount": 700
+    },
+    {
+      "id": 3,
+      "name": "Basic Crew",
+      "rating": 3.9,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1598,
+        "new": 1359
+      },
+      "discount": 15,
+      "description": "Basic Crew perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Elegant",
+        "Soft"
+      ],
+      "category": "Wearables",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Long Sleeves",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-07-08",
+      "salesCount": 145
+    },
+    {
+      "id": 4,
+      "name": "Minimalist Shirt",
+      "rating": 4.8,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1495,
+        "new": 1122
+      },
+      "discount": 25,
+      "description": "Minimalist Shirt perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Sport",
+      "type": "Polos",
+      "clothingType": "Shirts",
+      "arrivalDate": "2025-04-25",
+      "salesCount": 742
+    },
+    {
+      "id": 5,
+      "name": "Retro Top",
+      "rating": 4.0,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1812,
+        "new": 1541
+      },
+      "discount": 15,
+      "description": "Retro Top perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "keywords": [
+        "Elegant",
+        "Soft"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Sport",
+      "type": "Long Sleeves",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-07-12",
+      "salesCount": 252
+    },
+    {
+      "id": 6,
+      "name": "Modern Fit",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1518,
+        "new": 1291
+      },
+      "discount": 15,
+      "description": "Modern Fit perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Sport",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-09-15",
+      "salesCount": 313
+    },
+    {
+      "id": 7,
+      "name": "Vintage Tee",
+      "rating": 4.4,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1800,
+        "new": 1620
+      },
+      "discount": 10,
+      "description": "Vintage Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Elegant",
+        "Soft"
+      ],
+      "category": "Clothing",
+      "section": "Unisex",
+      "style": "Formal",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-12-28",
+      "salesCount": 749
+    },
+    {
+      "id": 8,
+      "name": "Essential T-Shirt",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1866,
+        "new": 1493
+      },
+      "discount": 20,
+      "description": "Essential T-Shirt perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Slim Fit",
+        "Basic"
+      ],
+      "category": "Wearables",
+      "section": "Men",
+      "style": "Streetwear",
+      "type": "Polos",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2025-05-05",
+      "salesCount": 409
+    },
+    {
+      "id": 9,
+      "name": "Bold Print",
+      "rating": 4.4,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1419,
+        "new": 1065
+      },
+      "discount": 25,
+      "description": "Bold Print perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Elegant",
+        "Soft"
+      ],
+      "category": "Clothing",
+      "section": "Unisex",
+      "style": "Casual",
+      "type": "Polos",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-07-25",
+      "salesCount": 817
+    },
+    {
+      "id": 10,
+      "name": "Chill Shirt",
+      "rating": 3.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1238,
+        "new": 867
+      },
+      "discount": 30,
+      "description": "Chill Shirt perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Graphic",
+        "Trendy"
+      ],
+      "category": "Apparel",
+      "section": "Unisex",
+      "style": "Formal",
+      "type": "Long Sleeves",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-12-20",
+      "salesCount": 610
+    },
+    {
+      "id": 11,
+      "name": "Cozy Crew",
+      "rating": 3.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1083,
+        "new": 759
+      },
+      "discount": 30,
+      "description": "Cozy Crew perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Slim Fit",
+        "Basic"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Streetwear",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-08-05",
+      "salesCount": 908
+    },
+    {
+      "id": 12,
+      "name": "Premium Tee",
+      "rating": 4.5,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1771,
+        "new": 1417
+      },
+      "discount": 20,
+      "description": "Premium Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "keywords": [
+        "Sporty",
+        "Comfort"
+      ],
+      "category": "Wearables",
+      "section": "Women",
+      "style": "Formal",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2025-03-15",
+      "salesCount": 518
+    },
+    {
+      "id": 13,
+      "name": "Relaxed Fit",
+      "rating": 4.3,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1411,
+        "new": 1059
+      },
+      "discount": 25,
+      "description": "Relaxed Fit perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Streetwear",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2025-03-12",
+      "salesCount": 233
+    },
+    {
+      "id": 14,
+      "name": "Casual Vibe",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1120,
+        "new": 840
+      },
+      "discount": 25,
+      "description": "Casual Vibe perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "keywords": [
+        "Sporty",
+        "Comfort"
+      ],
+      "category": "Wearables",
+      "section": "Men",
+      "style": "Sport",
+      "type": "Polos",
+      "clothingType": "Shirts",
+      "arrivalDate": "2025-06-06",
+      "salesCount": 509
+    },
+    {
+      "id": 15,
+      "name": "Slick T-Shirt",
+      "rating": 4.2,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1288,
+        "new": 966
+      },
+      "discount": 25,
+      "description": "Slick T-Shirt perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Wearables",
+      "section": "Unisex",
+      "style": "Casual",
+      "type": "Polos",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2025-04-17",
+      "salesCount": 134
+    },
+    {
+      "id": 16,
+      "name": "Comfy Tee",
+      "rating": 5.0,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1414,
+        "new": 1132
+      },
+      "discount": 20,
+      "description": "Comfy Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Wearables",
+      "section": "Women",
+      "style": "Streetwear",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-09-25",
+      "salesCount": 289
+    },
+    {
+      "id": 17,
+      "name": "Street Style",
+      "rating": 4.4,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1679,
+        "new": 1512
+      },
+      "discount": 10,
+      "description": "Street Style perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Elegant",
+        "Soft"
+      ],
+      "category": "Wearables",
+      "section": "Women",
+      "style": "Casual",
+      "type": "Polos",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-09-14",
+      "salesCount": 822
+    },
+    {
+      "id": 18,
+      "name": "Activewear Top",
+      "rating": 3.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1855,
+        "new": 1392
+      },
+      "discount": 25,
+      "description": "Activewear Top perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Sporty",
+        "Comfort"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Formal",
+      "type": "T-Shirts",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-09-09",
+      "salesCount": 316
+    },
+    {
+      "id": 19,
+      "name": "Everyday Tee",
+      "rating": 4.0,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1806,
+        "new": 1445
+      },
+      "discount": 20,
+      "description": "Everyday Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "T-Shirt",
+        "Casual"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Formal",
+      "type": "Polos",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-07-10",
+      "salesCount": 760
+    },
+    {
+      "id": 20,
+      "name": "Night Out Tee",
+      "rating": 4.3,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1417,
+        "new": 1276
+      },
+      "discount": 10,
+      "description": "Night Out Tee perfect for everyday wear.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Green",
+          "hex": "#008000"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Sporty",
+        "Comfort"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Sport",
+      "type": "Long Sleeves",
+      "clothingType": "T-Shirts",
+      "arrivalDate": "2024-07-02",
+      "salesCount": 521
+    }
+  ]
+}

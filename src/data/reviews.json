@@ -1,0 +1,144 @@
+{
+    "ratings":[
+    {
+    "id": 1,
+    "name": "John Doe",
+    "rating": 4.5,
+    "comment": "Great product, exceeded expectations! The quality is top-notch and the delivery was lightning-fast. I'm thoroughly impressed with the overall experience.",
+    "date": "January 10, 2022"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "rating": 5,
+    "comment": "Excellent service, highly recommend! The team was responsive, and the product met all my needs. I've already referred them to friends and family.",
+    "date": "February 20, 2022"
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "rating": 3.2,
+    "comment": "Good product, but some issues with delivery. The product itself was fine, but it took longer than expected to arrive. Maybe improve the shipping process?",
+    "date": "March 15, 2022"
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "rating": 5,
+    "comment": "Very satisfied with the purchase, would buy again! The product is exactly as described, and the customer support team is friendly and helpful.",
+    "date": "April 1, 2022"
+  },
+  {
+    "id": 5,
+    "name": "Mike Davis",
+    "rating": 2.5,
+    "comment": "Product was not as expected, disappointing experience. The product didn't match the description, and the return process was a bit of a hassle.",
+    "date": "May 12, 2022"
+  },
+  {
+    "id": 6,
+    "name": "Emily Taylor",
+    "rating": 4.7,
+    "comment": "Fantastic product, exceeded all expectations! The quality is superb, and the price is very reasonable. I've already ordered more.",
+    "date": "June 25, 2022"
+  },
+  {
+    "id": 7,
+    "name": "Sarah Lee",
+    "rating": 4.1,
+    "comment": "Good product, but some minor issues. The product is mostly great, but there's room for improvement in the packaging.",
+    "date": "July 18, 2022"
+  },
+  {
+    "id": 8,
+    "name": "David Kim",
+    "rating": 3.5,
+    "comment": "Product was okay, but not outstanding. The product met my basic needs, but it wasn't particularly impressive.",
+    "date": "August 22, 2022"
+  },
+  {
+    "id": 9,
+    "name": "Olivia Martin",
+    "rating": 5,
+    "comment": "Excellent product, highly recommend! The product is top-quality, and the customer service team is very responsive.",
+    "date": "September 10, 2022"
+  },
+  {
+    "id": 10,
+    "name": "William White",
+    "rating": 4.4,
+    "comment": "Great product, would buy again! The product is very good, and the price is reasonable. I'd definitely recommend it.",
+    "date": "October 5, 2022"
+  },
+  {
+    "id": 11,
+    "name": "Ava Harris",
+    "rating": 3.8,
+    "comment": "Good product, but some issues with customer service. The product is fine, but the support team could be more helpful.",
+    "date": "November 2, 2022"
+  },
+  {
+    "id": 12,
+    "name": "Jackson Hall",
+    "rating": 4.6,
+    "comment": "Fantastic product, exceeded all expectations! The quality is excellent, and the delivery was fast.",
+    "date": "December 15, 2022"
+  },
+  {
+    "id": 13,
+    "name": "Sophia Patel",
+    "rating": 4.3,
+    "comment": "Very satisfied with the purchase, would recommend! The product is very good, and the overall experience was positive.",
+    "date": "January 20, 2023"
+  },
+  {
+    "id": 14,
+    "name": "Mason Brooks",
+    "rating": 2.8,
+    "comment": "Product was not as expected, disappointing experience. The product didn't quite meet my expectations.",
+    "date": "February 14, 2023"
+  },
+  {
+  "id": 15,
+  "name": "Isabella Garcia",
+  "rating": 4.9,
+  "comment": "Excellent product, highly recommend! The product is superb, and the customer service team is very friendly.",
+  "date": "March 10, 2023"
+  },
+  {
+  "id": 16,
+  "name": "Noah Jenkins",
+  "rating": 4.2,
+  "comment": "Great product, would buy again! The product is very good, and the overall experience was positive.",
+  "date": "April 25, 2023"
+  },
+  {
+  "id": 17,
+  "name": "Charlotte Lewis",
+  "rating": 3.8,
+  "comment": "Good product, but some minor issues. The product is mostly great, but there's room for improvement.",
+  "date": "May 18, 2023"
+  },
+  {
+  "id": 18,
+  "name": "Ethan Scott",
+  "rating": 5,
+  "comment": "Fantastic product, exceeded all expectations! The quality is excellent, and the delivery was fast.",
+  "date": "June 1, 2023"
+  },
+  {
+  "id": 19,
+  "name": "Amelia Russell",
+  "rating": 5,
+  "comment": "Very satisfied with the purchase, would recommend! The product is very good, and the price is reasonable.",
+  "date": "July 4, 2023"
+  },
+  {
+  "id": 20,
+  "name": "Logan Sanders",
+  "rating": 3.5,
+  "comment": "Good product, but some issues with delivery. The product itself was fine, but it took longer than expected to arrive.",
+  "date": "August 15, 2023"
+  }]
+  }
+  

@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Graphic Tee",
+      "rating": 3.6,
+      "imageUrl": "https://picsum.photos/id/100/200/200",
+      "thumbnails": [
+        "https://picsum.photos/id/101/200/200",
+        "https://picsum.photos/id/102/200/200",
+        "https://picsum.photos/id/103/200/200"
+      ],
+      "price": { "old": 1750, "new": 1225 },
+      "discount": 30,
+      "description": "Graphic Tee perfect for everyday wear.",
+      "colors": [
+        { "name": "Gray", "hex": "#808080" },
+        { "name": "Red", "hex": "#FF0000" },
+        { "name": "White", "hex": "#FFFFFF" }
+      ],
+      "sizes": ["XS", "S", "M"],
+      "keywords": ["T-Shirt", "Casual"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Casual",
+      "type": "Long Sleeves",
+      "arrivalDate": "2023-06-12",
+      "salesCount": 336
+    },
+    {
+      "id": 2,
+      "name": "Urban Tee",
+      "rating": 4.2,
+      "imageUrl": "https://picsum.photos/id/101/200/200",
+      "thumbnails": [
+        "https://picsum.photos/id/102/200/200",
+        "https://picsum.photos/id/103/200/200",
+        "https://picsum.photos/id/104/200/200"
+      ],
+      "price": { "old": 1802, "new": 1531 },
+      "discount": 15,
+      "description": "Urban Tee perfect for everyday wear.",
+      "colors": [
+        { "name": "Blue", "hex": "#0000FF" },
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Green", "hex": "#008000" }
+      ],
+      "sizes": ["S", "M", "L"],
+      "keywords": ["Graphic", "Trendy"],
+      "category": "Wearables",
+      "section": "Unisex",
+      "style": "Streetwear",
+      "type": "Polos",
+      "arrivalDate": "2024-08-15",
+      "salesCount": 697
+    },
+    {
+      "id": 3,
+      "name": "Basic Crew",
+      "rating": 4.1,
+      "imageUrl": "https://picsum.photos/id/102/200/200",
+      "thumbnails": [
+        "https://picsum.photos/id/103/200/200",
+        "https://picsum.photos/id/104/200/200",
+        "https://picsum.photos/id/105/200/200"
+      ],
+      "price": { "old": 1733, "new": 1390 },
+      "discount": 20,
+      "description": "Basic Crew perfect for everyday wear.",
+      "colors": [
+        { "name": "Green", "hex": "#008000" },
+        { "name": "White", "hex": "#FFFFFF" },
+        { "name": "Blue", "hex": "#0000FF" }
+      ],
+      "sizes": ["S", "M", "L"],
+      "keywords": ["Slim Fit", "Basic"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Sport",
+      "type": "Polos",
+      "arrivalDate": "2023-11-24",
+      "salesCount": 894
+    }
+
+  ]
+}
