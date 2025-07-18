@@ -1,16 +1,16 @@
 
-
 import React, { useState } from 'react';
 import SearchBarDisplay from '../SearchBar/SearchBarDisplay';
 import SearchBarResults from '../SearchBar/SearchBarResults';
-import productList from './../../../../../data/randomized_products.json';
+import productList from '@/data/randomized_products.json';
+import { type Product, SearchBarDisplayProps } from '@/lib/types/types';
 
 function MobileSearchBar() {
   const [searchItem, setSearchItem] = useState('');
   const [recentSearches, setRecentSearches] = useState([]);
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchResults, setSearchResults] = useState<Product[]>([]);
 
-  const handleSearch = (e) => {
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchItem(e.target.value);
     if (Array.isArray(productList.products)) {
       const filteredResults = productList.products.filter((product) =>
@@ -39,10 +39,16 @@ function MobileSearchBar() {
       {searchItem ? (
         <SearchBarResults searchResults={searchResults} />
       ) : (
-        <SearchBarDisplay searchItem={searchItem} recentSearches={recentSearches} searchResults={searchResults} />
+      <SearchBarDisplay
+  recentSearches={recentSearches}
+  searchResults={searchResults}
+  searchItem={searchItem}
+/>
+
       )}
     </div>
   );
 }
 
 export default MobileSearchBar;
+

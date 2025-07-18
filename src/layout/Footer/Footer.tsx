@@ -16,7 +16,7 @@ function Footer() {
             <div className="flex flex-col justify-between items-center h-[500px] w-full md:h-[400px] md:flex-row ">
               <div className="flex flex-col justify-around item-start h-[180px]  w-full md:w-1/4   md:h-[180px] md:translate-y-[50px]">
                 <Link href="/home" className="flex-col items-center justify-center w-full text-center h-1/4">
-                       <h1 className="font-primary font-black text-[34px]">SHOP.CO</h1>
+                       <h1 className="font-primary font-black text-[3px]">SHOP.CO</h1>
 
           </Link>
                
@@ -25,25 +25,33 @@ function Footer() {
                   to wear. From women to men.
                 </p>
                 <div className="flex w-full gap-3">
-                  <img
+                  <Image
                     src="/assets/images/Icons/twitter.png"
                     alt=""
                     className="hover:invert"
+                       width={100}
+  height={100}
                   />
-                  <img
+                  <Image
                     src="/assets/images/Icons/facebook.png"
                     alt=""
                     className="invert hover:invert-0"
+                       width={100}
+  height={100}
                   />
-                  <img
+                  <Image
                     src="/assets/images/Icons/insta.png"
                     alt=""
                     className=" hover:invert"
+                       width={100}
+  height={100}
                   />
-                  <img
+                  <Image
                     src="/assets/images/Icons/github.png"
                     alt=""
                     className="hover:invert"
+                       width={100}
+  height={100}
                   />
                 </div>
               </div>

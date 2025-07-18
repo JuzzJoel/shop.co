@@ -103,3 +103,9 @@ export interface ReviewCardProps {
 export interface ProductCardProps {
   product: Product;
 }
+
+export interface SearchBarDisplayProps {
+  searchItem: (search: string) => void;
+  recentSearches: string[];
+  searchResults: any[];
+}
