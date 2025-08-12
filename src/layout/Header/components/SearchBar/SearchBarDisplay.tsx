@@ -1,7 +1,5 @@
-
-import React from 'react';
-import type { SearchBarDisplayProps } from '@/lib/types/types'; // Adjust path as needed
-
+import React from "react";
+import type { SearchBarDisplayProps } from "@/lib/types/types"; // Adjust path as needed
 
 const SearchBarDisplay = ({ searchItem, recentSearches, searchResults }: SearchBarDisplayProps) => {
   return (
@@ -10,20 +8,13 @@ const SearchBarDisplay = ({ searchItem, recentSearches, searchResults }: SearchB
       <ul>
         {recentSearches.map((search: string, index: number) => (
           <li key={index} className="py-2 border-b border-gray-200">
-            <button
-              className="text-sm text-gray-600"
-              onClick={() => searchItem(search)}
-            >
+            <button className="text-sm text-gray-600" onClick={() => searchItem(search)}>
               {search}
             </button>
           </li>
         ))}
       </ul>
-      {searchResults.length > 0 && (
-        <p className="text-sm text-gray-600 mt-2">
-          {searchResults.length} results found
-        </p>
-      )}
+      {searchResults.length > 0 && <p className="text-sm text-gray-600 mt-2">{searchResults.length} results found</p>}
     </section>
   );
 };

@@ -1,12 +1,12 @@
-import React from 'react'
-import CartOrder from './components/CartTotalOrder';
+import React from "react";
+import CartOrder from "./components/CartTotalOrder";
 
 function Cart() {
   return (
-      <div>
-<CartOrder/>
-</div>
-  )
+    <div>
+      <CartOrder />
+    </div>
+  );
 }
 
-export default Cart
+export default Cart;

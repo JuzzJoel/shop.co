@@ -39,21 +39,16 @@ const CartProvider = ({ children }: { children: React.ReactNode }) => {
 
   const addToCart = (product: CartItem) => {
     const match = cartItems.find(
-      (item) =>
-        item.id === product.id &&
-        item.size[0] === product.size[0] &&
-        item.color[0] === product.color[0]
+      (item) => item.id === product.id && item.size[0] === product.size[0] && item.color[0] === product.color[0],
     );
 
     if (match) {
       setCartItems(
         cartItems.map((item) =>
-          item.id === match.id &&
-          item.size[0] === match.size[0] &&
-          item.color[0] === match.color[0]
+          item.id === match.id && item.size[0] === match.size[0] && item.color[0] === match.color[0]
             ? { ...item, quantity: item.quantity + product.quantity }
-            : item
-        )
+            : item,
+        ),
       );
     } else {
       setCartItems([...cartItems, product]);
@@ -62,11 +57,7 @@ const CartProvider = ({ children }: { children: React.ReactNode }) => {
 
   const updateCartItemQuantity = (id: number, quantity: number) => {
     if (quantity < 1) return; // Optional guard
-    setCartItems(
-      cartItems.map((item) =>
-        item.id === id ? { ...item, quantity } : item
-      )
-    );
+    setCartItems(cartItems.map((item) => (item.id === id ? { ...item, quantity } : item)));
   };
 
   const removeCartItem = (id: number) => {

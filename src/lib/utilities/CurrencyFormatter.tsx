@@ -1,12 +1,13 @@
+import React from "react";
+import type { CurrencyFormatterProps } from "../types/types";
 
-import React from 'react';
 
-interface CurrencyFormatterProps {
-  value: number;
-}
-
-const CurrencyFormatter: React.FC<CurrencyFormatterProps> = ({ value }) => {
-  return <>${Math.floor(value / 100)}</>;
+const CurrencyFormatter: React.FC<CurrencyFormatterProps> = ({ value , fontSize = "text-[20px]" }) => {
+  return (
+    <>
+      <span className={fontSize}>${Math.floor(value / 100)}</span>
+    </>
+  );
 };
 
 export default CurrencyFormatter;

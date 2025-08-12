@@ -16,6 +16,12 @@ body::after {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@layer base {
+  a , li , img 
+  {
+    @apply cursor-pointer
+  }
+}
 
 
 

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Shop() {
-  return (
-      <div>
-          hju
-    </div>
-  )
+  return <div>empty</div>;
 }
 
-export default Shop
+export default Shop;

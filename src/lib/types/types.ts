@@ -1,5 +1,3 @@
-
-
 export interface Product {
   id: number;
   name: string;
@@ -16,6 +14,7 @@ export interface Product {
     hex: string;
   }[];
   sizes: string[];
+  size?: string;
   keywords: string[];
   category: string;
   section: string;
@@ -56,7 +55,7 @@ export interface PhotoGalleryProps {
 
 export interface CartItemProps {
   item: {
-    id:  number;
+    id: number;
     imageUrl: string;
     title: string;
     name: string;
@@ -82,15 +81,12 @@ export interface ProductListProps {
 export interface RenderStarsProps {
   rating: number;
   size: number;
-
 }
 
-type Variant = 'ProductCard' | 'ProductDetail';
-
+type Variant = "ProductCard" | "ProductDetail";
 
 export interface StarRatingProps extends RenderStarsProps {
-   variant: Variant;
-
+  variant: Variant;
 }
 
 export interface ReviewCardProps {
@@ -109,3 +105,23 @@ export interface SearchBarDisplayProps {
   recentSearches: string[];
   searchResults: any[];
 }
+
+export interface MultiRangeSliderProps {
+  min: number;
+  max: number;
+  initialMin?: number; // Make initialMin optional
+  initialMax?: number; // Make initialMax optional
+  onChange: (min: number, max: number) => void;
+}
+
+export interface CategoryContextValue {
+  category: string | null;
+  filteredProducts: Product[];
+}
+
+export 
+interface CurrencyFormatterProps {
+  value: number;
+  fontSize?: string;
+}
+

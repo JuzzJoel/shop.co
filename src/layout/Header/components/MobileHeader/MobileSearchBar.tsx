@@ -1,12 +1,11 @@
-
-import React, { useState } from 'react';
-import SearchBarDisplay from '../SearchBar/SearchBarDisplay';
-import SearchBarResults from '../SearchBar/SearchBarResults';
-import productList from '@/data/randomized_products.json';
-import { type Product, SearchBarDisplayProps } from '@/lib/types/types';
+import React, { useState } from "react";
+import SearchBarDisplay from "../SearchBar/SearchBarDisplay";
+import SearchBarResults from "../SearchBar/SearchBarResults";
+import productList from "@/data/randomized_products.json";
+import { type Product, SearchBarDisplayProps } from "@/lib/types/types";
 
 function MobileSearchBar() {
-  const [searchItem, setSearchItem] = useState('');
+  const [searchItem, setSearchItem] = useState("");
   const [recentSearches, setRecentSearches] = useState([]);
   const [searchResults, setSearchResults] = useState<Product[]>([]);
 
@@ -14,16 +13,16 @@ function MobileSearchBar() {
     setSearchItem(e.target.value);
     if (Array.isArray(productList.products)) {
       const filteredResults = productList.products.filter((product) =>
-        product.name.toLowerCase().includes(e.target.value.toLowerCase())
+        product.name.toLowerCase().includes(e.target.value.toLowerCase()),
       );
       setSearchResults(filteredResults);
     } else if (Array.isArray(productList)) {
       const filteredResults = productList.filter((product) =>
-        product.name.toLowerCase().includes(e.target.value.toLowerCase())
+        product.name.toLowerCase().includes(e.target.value.toLowerCase()),
       );
       setSearchResults(filteredResults);
     } else {
-      console.error('productList is not an array');
+      console.error("productList is not an array");
     }
   };
 
@@ -39,16 +38,10 @@ function MobileSearchBar() {
       {searchItem ? (
         <SearchBarResults searchResults={searchResults} />
       ) : (
-      <SearchBarDisplay
-  recentSearches={recentSearches}
-  searchResults={searchResults}
-  searchItem={searchItem}
-/>
-
+        <SearchBarDisplay recentSearches={recentSearches} searchResults={searchResults} searchItem={searchItem} />
       )}
     </div>
   );
 }
 
 export default MobileSearchBar;
-

@@ -935,6 +935,1142 @@
       "clothingType": "T-Shirts",
       "arrivalDate": "2024-07-02",
       "salesCount": 521
+    },{
+      "id": 21,
+      "name": "Classic Oxford Shirt",
+      "rating": 4.8,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2499,
+        "new": 1999
+      },
+      "discount": 20,
+      "description": "Premium cotton Oxford shirt for formal occasions.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        },
+        {
+          "name": "Pink",
+          "hex": "#FFC0CB"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Dress Shirt",
+        "Office Wear"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Dress Shirt",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-10-15",
+      "salesCount": 842
+    },
+    {
+      "id": 22,
+      "name": "Silk Blouse",
+      "rating": 4.9,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 3299,
+        "new": 2804
+      },
+      "discount": 15,
+      "description": "Luxurious silk blouse for professional settings.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#800020"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "keywords": [
+        "Elegant",
+        "Professional"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Formal",
+      "type": "Blouse",
+      "clothingType": "Tops",
+      "arrivalDate": "2024-11-05",
+      "salesCount": 723
+    },
+    {
+      "id": 23,
+      "name": "Wool Blend Suit",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 8999,
+        "new": 7199
+      },
+      "discount": 20,
+      "description": "Premium wool blend suit for business occasions.",
+      "colors": [
+        {
+          "name": "Charcoal",
+          "hex": "#36454F"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        }
+      ],
+      "sizes": [
+        "38R",
+        "40R",
+        "42R",
+        "44R"
+      ],
+      "keywords": [
+        "Business Attire",
+        "Tailored"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Suit",
+      "clothingType": "Suits",
+      "arrivalDate": "2025-01-10",
+      "salesCount": 312
+    },
+    {
+      "id": 24,
+      "name": "Pencil Skirt",
+      "rating": 4.5,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2799,
+        "new": 2239
+      },
+      "discount": 20,
+      "description": "Professional pencil skirt for office wear.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "keywords": [
+        "Office",
+        "Professional"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Formal",
+      "type": "Skirt",
+      "clothingType": "Bottoms",
+      "arrivalDate": "2024-12-01",
+      "salesCount": 587
+    },
+    {
+      "id": 25,
+      "name": "French Cuff Dress Shirt",
+      "rating": 4.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2999,
+        "new": 2399
+      },
+      "discount": 20,
+      "description": "Luxury French cuff dress shirt for formal events.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Light Blue",
+          "hex": "#ADD8E6"
+        },
+        {
+          "name": "Pale Pink",
+          "hex": "#FFD1DC"
+        }
+      ],
+      "sizes": [
+        "Small",
+        "Medium",
+        "Large",
+        "X-Large"
+      ],
+      "keywords": [
+        "Luxury",
+        "Formal Wear"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Dress Shirt",
+      "clothingType": "Shirts",
+      "arrivalDate": "2025-02-18",
+      "salesCount": 428
+    },
+    {
+      "id": 26,
+      "name": "Wool Trousers",
+      "rating": 4.4,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 3499,
+        "new": 2799
+      },
+      "discount": 20,
+      "description": "Premium wool trousers for business formal attire.",
+      "colors": [
+        {
+          "name": "Charcoal",
+          "hex": "#36454F"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        }
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "keywords": [
+        "Business",
+        "Tailored"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Trousers",
+      "clothingType": "Pants",
+      "arrivalDate": "2024-11-30",
+      "salesCount": 376
+    },
+    {
+      "id": 27,
+      "name": "Wrap Dress",
+      "rating": 4.8,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 4599,
+        "new": 3679
+      },
+      "discount": 20,
+      "description": "Elegant wrap dress for formal office wear.",
+      "colors": [
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#800020"
+        },
+        {
+          "name": "Emerald",
+          "hex": "#50C878"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "keywords": [
+        "Office",
+        "Elegant"
+      ],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Formal",
+      "type": "Dress",
+      "clothingType": "Dresses",
+      "arrivalDate": "2025-03-05",
+      "salesCount": 654
+    },
+    {
+      "id": 28,
+      "name": "Double-Breasted Blazer",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 5999,
+        "new": 4799
+      },
+      "discount": 20,
+      "description": "Classic double-breasted blazer for formal occasions.",
+      "colors": [
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454F"
+        }
+      ],
+      "sizes": [
+        "38R",
+        "40R",
+        "42R",
+        "44R"
+      ],
+      "keywords": [
+        "Business",
+        "Luxury"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Blazer",
+      "clothingType": "Jackets",
+      "arrivalDate": "2024-10-22",
+      "salesCount": 298
+    },
+    {
+      "id": 29,
+      "name": "Silk Tie",
+      "rating": 4.3,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 899,
+        "new": 719
+      },
+      "discount": 20,
+      "description": "Premium silk tie for formal business attire.",
+      "colors": [
+        {
+          "name": "Burgundy",
+          "hex": "#800020"
+        },
+        {
+          "name": "Navy",
+          "hex": "#000080"
+        },
+        {
+          "name": "Silver",
+          "hex": "#C0C0C0"
+        }
+      ],
+      "sizes": [
+        "Standard"
+      ],
+      "keywords": [
+        "Business",
+        "Accessory"
+      ],
+      "category": "Accessories",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Tie",
+      "clothingType": "Accessories",
+      "arrivalDate": "2024-12-15",
+      "salesCount": 1024
+    },
+    {
+      "id": 30,
+      "name": "Wool Blend Coat",
+      "rating": 4.9,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 7999,
+        "new": 6399
+      },
+      "discount": 20,
+      "description": "Formal wool blend coat for business professionals.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454F"
+        },
+        {
+          "name": "Camel",
+          "hex": "#C19A6B"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "keywords": [
+        "Winter",
+        "Professional"
+      ],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal",
+      "type": "Overcoat",
+      "clothingType": "Outerwear",
+      "arrivalDate": "2024-11-10",
+      "salesCount": 287
+    }
+    ,
+     {
+      "id": 31,
+      "name": "Performance Tank Top",
+      "rating": 4.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591209398241-9adf7db5e8a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1299,
+        "new": 999
+      },
+      "discount": 23,
+      "description": "Breathable tank top for intense workouts.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#000080"
+        },
+        {
+          "name": "Charcoal",
+          "hex": "#36454F"
+        }
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "keywords": ["Lightweight", "Moisture-Wicking"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Gym",
+      "type": "Sleeveless",
+      "clothingType": "Tank Top",
+      "arrivalDate": "2024-10-15",
+      "salesCount": 720
+    },
+    {
+      "id": 32,
+      "name": "High-Waist Leggings",
+      "rating": 4.8,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1590239926044-4131e5ad34a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1511746315387-c4a76990fdce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1899,
+        "new": 1424
+      },
+      "discount": 25,
+      "description": "Squat-proof leggings with a comfortable fit.",
+      "colors": [
+        {
+          "name": "Dark Gray",
+          "hex": "#A9A9A9"
+        },
+        {
+          "name": "Maroon",
+          "hex": "#800000"
+        },
+        {
+          "name": "Olive Green",
+          "hex": "#556B2F"
+        }
+      ],
+      "sizes": ["XS", "Small", "Medium", "Large"],
+      "keywords": ["Stretchy", "High Support"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Gym",
+      "type": "Athletic",
+      "clothingType": "Leggings",
+      "arrivalDate": "2024-09-30",
+      "salesCount": 1120
+    },
+    {
+      "id": 33,
+      "name": "Compression Shorts",
+      "rating": 4.5,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1499,
+        "new": 1124
+      },
+      "discount": 25,
+      "description": "Muscle-supporting compression shorts for training.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Royal Blue",
+          "hex": "#4169E1"
+        },
+        {
+          "name": "Red",
+          "hex": "#FF0000"
+        }
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "keywords": ["Flexible", "Performance"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Gym",
+      "type": "Athletic",
+      "clothingType": "Shorts",
+      "arrivalDate": "2024-11-05",
+      "salesCount": 890
+    },
+    {
+      "id": 34,
+      "name": "Sports Bra",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591209398241-9adf7db5e8a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1799,
+        "new": 1349
+      },
+      "discount": 25,
+      "description": "High-support sports bra for intense workouts.",
+      "colors": [
+        {
+          "name": "Pink",
+          "hex": "#FFC0CB"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Teal",
+          "hex": "#008080"
+        }
+      ],
+      "sizes": ["XS", "Small", "Medium", "Large"],
+      "keywords": ["Comfortable", "High Impact"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Gym",
+      "type": "Athletic",
+      "clothingType": "Sports Bra",
+      "arrivalDate": "2024-10-22",
+      "salesCount": 1050
+    },
+    {
+      "id": 35,
+      "name": "Running Shoes",
+      "rating": 4.9,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 5999,
+        "new": 4799
+      },
+      "discount": 20,
+      "description": "Lightweight running shoes with superior cushioning.",
+      "colors": [
+        {
+          "name": "White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Neon Green",
+          "hex": "#39FF14"
+        }
+      ],
+      "sizes": ["US 7", "US 8", "US 9", "US 10", "US 11"],
+      "keywords": ["Breathable", "Shock Absorption"],
+      "category": "Footwear",
+      "section": "Unisex",
+      "style": "Gym",
+      "type": "Running",
+      "clothingType": "Shoes",
+      "arrivalDate": "2024-11-10",
+      "salesCount": 620
+    },
+    {
+      "id": 36,
+      "name": "Sleeveless Hoodie",
+      "rating": 4.4,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591209398241-9adf7db5e8a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2199,
+        "new": 1649
+      },
+      "discount": 25,
+      "description": "Stylish sleeveless hoodie for gym sessions.",
+      "colors": [
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Burgundy",
+          "hex": "#800020"
+        }
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "keywords": ["Ventilated", "Athleisure"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Gym",
+      "type": "Sleeveless",
+      "clothingType": "Hoodie",
+      "arrivalDate": "2024-10-05",
+      "salesCount": 530
+    },
+    {
+      "id": 37,
+      "name": "Yoga Pants",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1590239926044-4131e5ad34a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1511746315387-c4a76990fdce?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1999,
+        "new": 1499
+      },
+      "discount": 25,
+      "description": "Stretchy and comfortable yoga pants.",
+      "colors": [
+        {
+          "name": "Purple",
+          "hex": "#800080"
+        },
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Dark Green",
+          "hex": "#006400"
+        }
+      ],
+      "sizes": ["XS", "Small", "Medium", "Large"],
+      "keywords": ["Flexible", "Breathable"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Gym",
+      "type": "Yoga",
+      "clothingType": "Pants",
+      "arrivalDate": "2024-09-25",
+      "salesCount": 980
+    },
+    {
+      "id": 38,
+      "name": "Training Gloves",
+      "rating": 4.3,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1299,
+        "new": 974
+      },
+      "discount": 25,
+      "description": "Durable gloves for weightlifting and training.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Gray",
+          "hex": "#808080"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        }
+      ],
+      "sizes": ["Small", "Medium", "Large"],
+      "keywords": ["Grip Support", "Padded"],
+      "category": "Accessories",
+      "section": "Unisex",
+      "style": "Gym",
+      "type": "Training",
+      "clothingType": "Gloves",
+      "arrivalDate": "2024-11-15",
+      "salesCount": 410
+    },
+    {
+      "id": 39,
+      "name": "Athletic Joggers",
+      "rating": 4.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591209398241-9adf7db5e8a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2399,
+        "new": 1799
+      },
+      "discount": 25,
+      "description": "Comfortable joggers for gym and casual wear.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Navy Blue",
+          "hex": "#000080"
+        },
+        {
+          "name": "Dark Gray",
+          "hex": "#A9A9A9"
+        }
+      ],
+      "sizes": ["Small", "Medium", "Large", "X-Large"],
+      "keywords": ["Breathable", "Stylish"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Gym",
+      "type": "Athletic",
+      "clothingType": "Pants",
+      "arrivalDate": "2024-10-18",
+      "salesCount": 670
+    },
+    {
+      "id": 40,
+      "name": "Gym Headband",
+      "rating": 4.2,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1591209398241-9adf7db5e8a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 599,
+        "new": 449
+      },
+      "discount": 25,
+      "description": "Sweat-absorbing headband for workouts.",
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000"
+        },
+        {
+          "name": "Pink",
+          "hex": "#FFC0CB"
+        },
+        {
+          "name": "Blue",
+          "hex": "#0000FF"
+        }
+      ],
+      "sizes": ["One Size"],
+      "keywords": ["Sweat-Wicking", "Adjustable"],
+      "category": "Accessories",
+      "section": "Women",
+      "style": "Gym",
+      "type": "Workout",
+      "clothingType": "Headband",
+      "arrivalDate": "2024-11-01",
+      "salesCount": 380
+    }
+    ,
+        {
+      "id": 41,
+      "name": "Sequined Mini Dress",
+      "rating": 4.8,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 3499,
+        "new": 2799
+      },
+      "discount": 20,
+      "description": "Sparkling sequin dress perfect for night parties.",
+      "colors": [
+        {"name": "Gold", "hex": "#FFD700"},
+        {"name": "Silver", "hex": "#C0C0C0"},
+        {"name": "Black", "hex": "#000000"}
+      ],
+      "sizes": ["XS", "S", "M", "L"],
+      "keywords": ["Glamorous", "Sparkly", "Night Out"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Party",
+      "type": "Mini Dress",
+      "clothingType": "Dresses",
+      "arrivalDate": "2024-12-15",
+      "salesCount": 872
+    },
+    {
+      "id": 42,
+      "name": "Velvet Blazer",
+      "rating": 4.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 4599,
+        "new": 3679
+      },
+      "discount": 20,
+      "description": "Luxurious velvet blazer for sophisticated parties.",
+      "colors": [
+        {"name": "Burgundy", "hex": "#800020"},
+        {"name": "Navy", "hex": "#000080"},
+        {"name": "Emerald", "hex": "#50C878"}
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "keywords": ["Elegant", "Formal", "Luxury"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Formal Party",
+      "type": "Blazer",
+      "clothingType": "Jackets",
+      "arrivalDate": "2024-11-30",
+      "salesCount": 654
+    },
+    {
+      "id": 43,
+      "name": "Crop Top & High Waist Skirt Set",
+      "rating": 4.5,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2899,
+        "new": 2319
+      },
+      "discount": 20,
+      "description": "Trendy two-piece set for club parties.",
+      "colors": [
+        {"name": "Pink", "hex": "#FFC0CB"},
+        {"name": "Black", "hex": "#000000"},
+        {"name": "White", "hex": "#FFFFFF"}
+      ],
+      "sizes": ["XS", "S", "M"],
+      "keywords": ["Trendy", "Club Wear", "Sexy"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Club Party",
+      "type": "Two-Piece",
+      "clothingType": "Sets",
+      "arrivalDate": "2024-12-10",
+      "salesCount": 1023
+    },
+    {
+      "id": 44,
+      "name": "Hawaiian Shirt",
+      "rating": 4.3,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 1799,
+        "new": 1439
+      },
+      "discount": 20,
+      "description": "Vibrant Hawaiian shirt for summer parties.",
+      "colors": [
+        {"name": "Multicolor", "hex": "#FF5733"},
+        {"name": "Blue", "hex": "#1E90FF"},
+        {"name": "Red", "hex": "#FF0000"}
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "keywords": ["Tropical", "Casual", "Summer"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Beach Party",
+      "type": "Short Sleeves",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-11-25",
+      "salesCount": 756
+    },
+    {
+      "id": 45,
+      "name": "Leather Jumpsuit",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 5999,
+        "new": 4799
+      },
+      "discount": 20,
+      "description": "Edgy faux leather jumpsuit for bold party looks.",
+      "colors": [
+        {"name": "Black", "hex": "#000000"},
+        {"name": "Burgundy", "hex": "#800020"}
+      ],
+      "sizes": ["XS", "S", "M"],
+      "keywords": ["Edgy", "Bold", "Statement"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Night Party",
+      "type": "Jumpsuit",
+      "clothingType": "Jumpsuits",
+      "arrivalDate": "2024-12-05",
+      "salesCount": 589
+    },
+    {
+      "id": 46,
+      "name": "Silk Satin Shirt",
+      "rating": 4.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 3299,
+        "new": 2639
+      },
+      "discount": 20,
+      "description": "Luxurious silk shirt for elegant evening parties.",
+      "colors": [
+        {"name": "White", "hex": "#FFFFFF"},
+        {"name": "Black", "hex": "#000000"},
+        {"name": "Navy", "hex": "#000080"}
+      ],
+      "sizes": ["S", "M", "L"],
+      "keywords": ["Luxury", "Elegant", "Sophisticated"],
+      "category": "Clothing",
+      "section": "Men",
+      "style": "Cocktail Party",
+      "type": "Long Sleeves",
+      "clothingType": "Shirts",
+      "arrivalDate": "2024-12-01",
+      "salesCount": 423
+    },
+    {
+      "id": 47,
+      "name": "Tulle Midi Skirt",
+      "rating": 4.4,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 2499,
+        "new": 1999
+      },
+      "discount": 20,
+      "description": "Romantic tulle skirt for garden parties.",
+      "colors": [
+        {"name": "Dusty Pink", "hex": "#D8A494"},
+        {"name": "Mint", "hex": "#98FF98"},
+        {"name": "Lavender", "hex": "#E6E6FA"}
+      ],
+      "sizes": ["XS", "S", "M", "L"],
+      "keywords": ["Romantic", "Feminine", "Ethereal"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Garden Party",
+      "type": "Skirt",
+      "clothingType": "Skirts",
+      "arrivalDate": "2024-11-28",
+      "salesCount": 687
+    },
+    {
+      "id": 48,
+      "name": "Distressed Denim Jacket",
+      "rating": 4.5,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 3799,
+        "new": 3039
+      },
+      "discount": 20,
+      "description": "Edgy denim jacket for casual parties.",
+      "colors": [
+        {"name": "Light Blue", "hex": "#ADD8E6"},
+        {"name": "Black", "hex": "#000000"}
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "keywords": ["Edgy", "Casual", "Streetwear"],
+      "category": "Clothing",
+      "section": "Unisex",
+      "style": "Casual Party",
+      "type": "Jacket",
+      "clothingType": "Jackets",
+      "arrivalDate": "2024-12-08",
+      "salesCount": 542
+    },
+    {
+      "id": 49,
+      "name": "Sequin Culotte Jumpsuit",
+      "rating": 4.7,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 4299,
+        "new": 3439
+      },
+      "discount": 20,
+      "description": "Glamorous sequin jumpsuit for New Year's Eve.",
+      "colors": [
+        {"name": "Gold", "hex": "#FFD700"},
+        {"name": "Silver", "hex": "#C0C0C0"}
+      ],
+      "sizes": ["XS", "S", "M", "L"],
+      "keywords": ["Glamorous", "Sparkly", "Celebration"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "New Year Party",
+      "type": "Jumpsuit",
+      "clothingType": "Jumpsuits",
+      "arrivalDate": "2024-12-20",
+      "salesCount": 923
+    },
+    {
+      "id": 50,
+      "name": "Embroidered Kurta Set",
+      "rating": 4.6,
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+      ],
+      "price": {
+        "old": 3199,
+        "new": 2559
+      },
+      "discount": 20,
+      "description": "Traditional embroidered set for festive parties.",
+      "colors": [
+        {"name": "Royal Blue", "hex": "#4169E1"},
+        {"name": "Maroon", "hex": "#800000"},
+        {"name": "Teal", "hex": "#008080"}
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "keywords": ["Traditional", "Festive", "Cultural"],
+      "category": "Clothing",
+      "section": "Women",
+      "style": "Traditional Party",
+      "type": "Kurta Set",
+      "clothingType": "Ethnic Wear",
+      "arrivalDate": "2024-12-12",
+      "salesCount": 784
     }
   ]
 }

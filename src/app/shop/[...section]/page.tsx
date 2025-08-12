@@ -1,11 +1,12 @@
-'use client';
+"use client";
 
-import { useState, useContext } from 'react';
-import { useParams, notFound } from 'next/navigation';
-import products from '@/data/randomized_products.json';
-import StarRating from '@/ui/cards/StarRating';
-import Prices from '@/ui/cards/Prices';
-import { CartContext } from '@/context/cartContext';
+import { useState, useContext } from "react";
+import { useParams, notFound } from "next/navigation";
+import products from "@/data/randomized_products.json";
+import StarRating from "@/ui/cards/StarRating";
+import Prices from "@/ui/cards/Prices";
+import { CartContext } from "@/context/cartContext";
+import Image from "next/image";
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -18,20 +19,20 @@ export default function ProductDetailPage() {
     (p) =>
       p.id.toString() === id &&
       p.section.toLowerCase() === sectionName.toLowerCase() &&
-      p.clothingType.toLowerCase() === clothingType.toLowerCase()
+      p.clothingType.toLowerCase() === clothingType.toLowerCase(),
   );
 
   if (!product) return notFound();
 
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedColor, setSelectedColor] = useState(0);
-  const [selectedSize, setSelectedSize] = useState('');
+  const [selectedSize, setSelectedSize] = useState("");
   const [quantity, setQuantity] = useState(1);
 
-  const allImages = [ ...product.imageUrl];
+  const allImages = [...product.imageUrl];
 
   const context = useContext(CartContext);
-  if (!context) throw new Error('CartContext not found');
+  if (!context) throw new Error("CartContext not found");
   const { addToCart } = context;
 
   const handleAddToCart = (e: React.FormEvent) => {
@@ -58,14 +59,11 @@ export default function ProductDetailPage() {
     addToCart(cartData);
 
     try {
-      const existingCart = localStorage.getItem('cart');
+      const existingCart = localStorage.getItem("cart");
       let cart = existingCart ? JSON.parse(existingCart) : { products: [] };
 
       const existingProductIndex = cart.products.findIndex(
-        (p: any) =>
-          p.id === cartData.id &&
-          p.color[0] === cartData.color[0] &&
-          p.size[0] === cartData.size[0]
+        (p: any) => p.id === cartData.id && p.color[0] === cartData.color[0] && p.size[0] === cartData.size[0],
       );
 
       if (existingProductIndex !== -1) {
@@ -74,25 +72,30 @@ export default function ProductDetailPage() {
         cart.products.push(cartData);
       }
 
-      localStorage.setItem('cart', JSON.stringify(cart));
+      localStorage.setItem("cart", JSON.stringify(cart));
     } catch (err) {
-      console.error('Failed to update cart in localStorage:', err);
+      console.error("Failed to update cart in localStorage:", err);
     }
   };
 
   return (
-    <div className="min-h-screen w-screen flex items-center justify-center bg-white">
-      <section className="container w-9/10 border mx-auto max-w-[77.5rem] py-8">
-        <div className="flex flex-col w-full gap-4 md:flex-row md:gap-8">
+    <div className=" w-screen flex items-center justify-center bg-white">
+      <section className="container w-9/10  mx-auto max-w-[77.5rem] h-[800px] md:h-[500px] lg:h-[530px]">
+        <div className="flex flex-col w-full h-full gap-2 md:flex-row md:gap-8 lg:gap-10">
           {/* Product Images */}
-          <div className="h-full flex flex-col md:flex-row w-full md:w-1/2 border">
+          <div className="h-full flex flex-col md:flex-row w-full gap-3 md:w-1/2">
             {/* Main Image */}
             <div className="relative w-full h-full md:order-2 md:flex-[3] rounded-[20px] overflow-hidden shadow-sm">
-              <img
+              <Image
                 src={allImages[selectedImage]}
                 alt={product.name}
                 className="w-full h-full object-cover"
+                width={800}
+                height={800}
+                priority
+                quality={100}
               />
+
               {product.discount && (
                 <div className="absolute top-4 left-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   -{product.discount}% OFF
@@ -101,35 +104,36 @@ export default function ProductDetailPage() {
             </div>
 
             {/* Thumbnails */}
-            <div className="flex w-full md:flex-[1] border-2 md:order-1 gap-3 md:flex-col pb-2">
+            <div className="flex w-full md:flex-[1]  md:order-1 gap-2 md:flex-col ">
               {allImages.map((img, i) => (
                 <button
                   key={i}
                   onClick={() => setSelectedImage(i)}
-                  className={`flex-shrink-0 h-26 lg:w-35 flex-1 rounded-[20px] border overflow-hidden transition-all ${selectedImage === i
-                    ? 'border-black/10'
-                    : 'border-gray-200 hover:border-gray-400'
-                    }`}
+                  className={`flex-shrink-0 h-26 lg:w-35 flex-1 rounded-[20px] border overflow-hidden transition-all ${
+                    selectedImage === i ? "border-black/10" : "border-gray-200 hover:border-gray-400"
+                  }`}
                 >
-                  <img src={img} alt={`${product.name} ${i + 1}`} className="w-full h-full object-cover" />
+                  <Image
+                    src={img}
+                    alt={`${product.name} ${i + 1}`}
+                    className="w-full h-full object-cover"
+                    height={400}
+                    width={400}
+                  />
                 </button>
               ))}
             </div>
           </div>
 
           {/* Product Info */}
-          <div className="space-y-6 border w-full md:w-1/2">
-            <div className="space-y-2">
-              <h1 className="text-3xl lg:text-4xl font-bold text-gray-900">{product.name}</h1>
-              <StarRating rating={product.rating} variant="ProductDetail" />
+          <div className=" w-full md:w-1/2">
+            <div className=" ">
+              <h1 className="text-3xl lg:text-[40px] font-black font-primary uppercase mb-3 text-black">{product.name}</h1>
+              <StarRating rating={product.rating} size={25} variant="ProductDetail" />
             </div>
 
-            <div className="space-y-1">
-              <Prices
-                current={product.price.new}
-                old={product.price.old}
-                discount={product.discount}
-              />
+            <div className="">
+              <Prices current={product.price.new} old={product.price.old} discount={product.discount} fontSize="text-[32px]"/>
             </div>
 
             <div className="space-y-2">
@@ -149,10 +153,9 @@ export default function ProductDetailPage() {
                       type="button"
                       key={i}
                       onClick={() => setSelectedColor(i)}
-                      className={`w-12 h-12 rounded-full border-2 transition-all ${selectedColor === i
-                        ? 'border-gray-900 scale-110'
-                        : 'border-gray-300 hover:border-gray-500'
-                        }`}
+                      className={`w-12 h-12 rounded-full border-2 transition-all ${
+                        selectedColor === i ? "border-gray-900 scale-110" : "border-gray-300 hover:border-gray-500"
+                      }`}
                       style={{ backgroundColor: color.hex }}
                       title={color.name}
                     />
@@ -163,7 +166,7 @@ export default function ProductDetailPage() {
               {/* Size */}
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Size: <span className="font-normal text-gray-600">{selectedSize || 'Select a size'}</span>
+                  Size: <span className="font-normal text-gray-600">{selectedSize || "Select a size"}</span>
                 </h3>
                 <div className="grid grid-cols-4 gap-3">
                   {product.sizes.map((size, i) => (
@@ -171,10 +174,11 @@ export default function ProductDetailPage() {
                       type="button"
                       key={i}
                       onClick={() => setSelectedSize(size)}
-                      className={`py-3 px-4 rounded-lg border-2 font-medium transition-all ${selectedSize === size
-                        ? 'border-gray-900 bg-gray-900 text-white'
-                        : 'border-gray-300 hover:border-gray-500 hover:bg-gray-50'
-                        }`}
+                      className={`py-3 px-4 rounded-lg border-2 font-medium transition-all ${
+                        selectedSize === size
+                          ? "border-gray-900 bg-gray-900 text-white"
+                          : "border-gray-300 hover:border-gray-500 hover:bg-gray-50"
+                      }`}
                     >
                       {size}
                     </button>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SearchBarDisplay from "./SearchBarDisplay";
 import SearchBarResults from "./SearchBarResults";
 import productList from "../../../../data/randomized_products.json";
-import type { Product } from '@/lib/types/types'; // Adjust path as needed
+import type { Product } from "@/lib/types/types"; // Adjust path as needed
 import Image from "next/image";
 
 const SearchBar = () => {
@@ -24,11 +24,11 @@ const SearchBar = () => {
     const products: Product[] = Array.isArray(productList.products)
       ? productList.products
       : Array.isArray(productList)
-      ? productList
-      : [];
+        ? productList
+        : [];
 
     const filteredResults = products.filter((product: Product) =>
-      product.name.toLowerCase().includes(value.toLowerCase())
+      product.name.toLowerCase().includes(value.toLowerCase()),
     );
     setSearchResults(filteredResults);
 
@@ -54,10 +54,9 @@ const SearchBar = () => {
       <Image
         src="/assets/images/Icons/search-lg.png"
         alt="search icon"
-        className="absolute left-10  "
-                 width={20}
-  height={10}
-  
+        className="absolute left-10 aspect-square "
+        width={20}
+        height={10}
       />
 
       {isFocused && (

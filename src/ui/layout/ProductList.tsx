@@ -1,16 +1,7 @@
-
 import ProductCard from "../cards/ProductCard";
-import type { ProductListProps } from '@/lib/types/types';
+import type { ProductListProps } from "@/lib/types/types";
 
-function ProductList({
-  data,
-  filterProp,
-  filterValue,
-  sortProp,
-  sortOrder,
-  limit,
-  random,
-}: ProductListProps) {
+function ProductList({ data, filterProp, filterValue, sortProp, sortOrder, limit, random }: ProductListProps) {
   let products = Array.from(data ?? []);
 
   // Filter products
@@ -52,18 +43,15 @@ function ProductList({
 
   return (
     <section className="w-screen ">
-      <div className="border mx-auto w-[95/100] max-w-[77.5rem] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y-10 justify-items-center ">
-      {products.map((product) => (
-        <div className="" key={product.id}>
-          <ProductCard product={product} />
-        </div>
-      ))}
-    </div>
+      <div className=" mx-auto w-[95/100] max-w-[77.5rem] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y-10 justify-items-center ">
+        {products.map((product) => (
+          <div className="" key={product.id}>
+            <ProductCard product={product} />
+          </div>
+        ))}
+      </div>
     </section>
-
   );
 }
 
 export default ProductList;
-
-

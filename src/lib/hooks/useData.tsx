@@ -1,14 +1,12 @@
 "use client";
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 
 type DataLocation = URL | `/path/to/file.json` | string;
 
-
 const useData = (dataLocation: DataLocation) => {
-     const [data, setData] = React.useState([]);
+  const [data, setData] = React.useState([]);
 
-
-      useEffect(() => {
+  useEffect(() => {
     const fetchData = async (dataLocation: DataLocation) => {
       try {
         const response = await fetch(dataLocation);
@@ -21,8 +19,7 @@ const useData = (dataLocation: DataLocation) => {
     fetchData(dataLocation);
   }, [dataLocation]);
 
-  return data
+  return data;
+};
 
-}
-
-export default useData
+export default useData;

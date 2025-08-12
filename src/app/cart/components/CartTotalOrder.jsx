@@ -1,6 +1,6 @@
-import React from 'react';
-import CartSummary from './CartSummary';
-import OrderSummary from './OrderSummary';
+import React from "react";
+import CartSummary from "./CartSummary";
+import OrderSummary from "./OrderSummary";
 
 function CartOrder() {
   return (

@@ -1,7 +1,6 @@
 import DesktopHeader from "./components/DesktopHeader/DesktopHeader";
 import MobileHeader from "./components/MobileHeader/MobileHeader";
 
-
 function Header() {
   return (
     <>
