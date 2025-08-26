@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import ProductCard from "@/ui/cards/ProductCard";
-import { useCategory } from "@/app/[category]/page";
+import { useCategory } from "@/context/CategoryContext";
 import { CategoryContextValue } from "@/lib/types/types";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown,  } from "lucide-react";
 
 const ProductDisplay = () => {
   const { category, filteredProducts } = useCategory() as CategoryContextValue;

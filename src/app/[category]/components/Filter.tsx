@@ -33,7 +33,7 @@ const Filter = () => {
     // Filter by selected colors
     if (selectedColors.length > 0) {
       updatedProducts = updatedProducts.filter((product) =>
-        selectedColors.some((color) => product.colors.includes(color)),
+        selectedColors.some((color) => product.colors.some((c) => c.name === color)),
       );
     }
 
@@ -61,7 +61,7 @@ const Filter = () => {
     }
 
     setFilteredProducts(updatedProducts);
-  }, [priceRange, selectedColors, selectedSize, sortBy, selectedCategory]);
+  }, [priceRange, selectedColors, selectedSize, sortBy, selectedCategory, products]);
 
   const applyFilters = () => {
     // For future use: if you switch to manual filtering (not useEffect)
@@ -96,111 +96,93 @@ const Filter = () => {
       </div>
 
       {/* Category Filter */}
-      <CloseSection
-        name="Categories"
-        children={
-          <div className="mt-2 space-y-1">
-            {categories.map((category) => (
-              <div
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`flex items-center justify-between text-sm cursor-pointer ${
-                  selectedCategory === category ? "text-black font-medium" : "text-gray-600"
-                } hover:text-black`}
-              >
-                <span>{category}</span>
-                <ChevronDown size={16} className="text-gray-400" />
-              </div>
-            ))}
-          </div>
-        }
-      />
+      <CloseSection name="Categories">
+        <div className="mt-2 space-y-1">
+          {categories.map((category) => (
+            <div
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`flex items-center justify-between text-sm cursor-pointer ${
+                selectedCategory === category ? "text-black font-medium" : "text-gray-600"
+              } hover:text-black`}
+            >
+              <span>{category}</span>
+              <ChevronDown size={16} className="text-gray-400" />
+            </div>
+          ))}
+        </div>
+      </CloseSection>
 
       {/* Price Range */}
-      <CloseSection
-        name="Price"
-        children={<RangeSlider min={0} max={1000} initialMin={50} initialMax={200} onChange={handleRangeChange} />}
-      />
+      <CloseSection name="Price">
+        <RangeSlider min={0} max={1000} initialMin={50} initialMax={200} onChange={handleRangeChange} />
+      </CloseSection>
 
       {/* Color Filter */}
-      <CloseSection
-        name="Colors"
-        children={
-          <div className="flex flex-wrap gap-2 mt-2">
-            {colors.map((color) => (
-              <button
-                key={color.name}
-                onClick={() =>
-                  setSelectedColors((prev) =>
-                    prev.includes(color.name) ? prev.filter((c) => c !== color.name) : [...prev, color.name],
-                  )
-                }
-                className="flex items-center justify-center w-6 h-6 rounded-full border border-gray-300"
-                style={{ backgroundColor: color.value }}
-              >
-                {selectedColors.includes(color.name) && <FaCheck size={10} color="white" />}
-              </button>
-            ))}
-          </div>
-        }
-      />
+      <CloseSection name="Colors">
+        <div className="flex flex-wrap gap-2 mt-2">
+          {colors.map((color) => (
+            <button
+              key={color.name}
+              onClick={() =>
+                setSelectedColors((prev) =>
+                  prev.includes(color.name) ? prev.filter((c) => c !== color.name) : [...prev, color.name],
+                )
+              }
+              className="flex items-center justify-center w-6 h-6 rounded-full border border-gray-300"
+              style={{ backgroundColor: color.value }}
+            >
+              {selectedColors.includes(color.name) && <FaCheck size={10} color="white" />}
+            </button>
+          ))}
+        </div>
+      </CloseSection>
 
       {/* Size Filter */}
-      <CloseSection
-        name="Size"
-        children={
-          <div className="grid grid-cols-3 gap-2 mt-2">
-            {sizes.map((size) => (
-              <button
-                key={size}
-                onClick={() => setSelectedSize(size)}
-                className={`px-3 py-1 text-sm rounded-full border ${
-                  selectedSize === size
-                    ? "bg-black text-white border-black"
-                    : "bg-gray-100 text-gray-700 border-gray-300"
-                }`}
-              >
-                {size}
-              </button>
-            ))}
-          </div>
-        }
-      />
+      <CloseSection name="Size">
+        <div className="grid grid-cols-3 gap-2 mt-2">
+          {sizes.map((size) => (
+            <button
+              key={size}
+              onClick={() => setSelectedSize(size)}
+              className={`px-3 py-1 text-sm rounded-full border ${
+                selectedSize === size ? "bg-black text-white border-black" : "bg-gray-100 text-gray-700 border-gray-300"
+              }`}
+            >
+              {size}
+            </button>
+          ))}
+        </div>
+      </CloseSection>
 
       {/* Dress Style (optional, not functional yet) */}
-      <CloseSection
-        name="Dress Style"
-        children={
-          <div className="mt-2 space-y-1">
-            {dressStyles.map((style) => (
-              <div key={style} className="flex items-center justify-between text-sm text-gray-600 hover:text-gray-900">
-                <span>{style}</span>
-                <ChevronDown size={16} className="text-gray-400" />
-              </div>
-            ))}
-          </div>
-        }
-      />
+      <CloseSection name="Dress Style">
+        <div className="mt-2 space-y-1">
+          {dressStyles.map((style) => (
+            <div key={style} className="flex items-center justify-between text-sm text-gray-600 hover:text-gray-900">
+              <span>{style}</span>
+              <ChevronDown size={16} className="text-gray-400" />
+            </div>
+          ))}
+        </div>
+      </CloseSection>
 
       {/* Sort Options */}
-      <CloseSection
-        name="Sort By"
-        children={
-          <div className="mt-2 space-y-1">
-            {sortOptions.map((option) => (
-              <button
-                key={option}
-                onClick={() => setSortBy(option)}
-                className={`text-sm w-full text-left px-3 py-2 rounded-md ${
-                  sortBy === option ? "bg-black text-white" : "text-gray-600 hover:bg-gray-100"
-                }`}
-              >
-                {option}
-              </button>
-            ))}
-          </div>
-        }
-      />
+      <CloseSection name="Sort By">
+        <div className="mt-2 space-y-1">
+          {sortOptions.map((option) => (
+            <button
+              key={option}
+              onClick={() => setSortBy(option)}
+              className={`text-sm w-full text-left px-3 py-2 rounded-md ${
+                sortBy === option ? "bg-black text-white" : "text-gray-600 hover:bg-gray-100"
+              }`}
+            >
+              {option}
+            </button>
+          ))}
+        </div>
+      </CloseSection>
 
       {/* Apply Button */}
       <button
@@ -212,12 +194,16 @@ const Filter = () => {
     </div>
   );
 
-  return (
-    <div className="h-screen bg-white overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-      <FilterSidebar />
-      {/* Optionally render filteredProducts here or pass them to a parent component */}
+return (
+  <div className="h-screen bg-white overflow-y-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+    <FilterSidebar />
+    <div>
+      {filteredProducts.map((product) => (
+        <div key={product.id}>{product.name}</div>
+      ))}
     </div>
-  );
+  </div>
+);
 };
 
 export default Filter;

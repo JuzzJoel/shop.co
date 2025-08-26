@@ -13,7 +13,11 @@ export default function SearchBarResults({ searchResults }: SearchBarResultsProp
       <h2 className="text-lg font-bold mb-2">Search Results</h2>
       <ul className="flex flex-col gap-4">
         {searchResults.map((product) => (
-          <Link href={`/shop/${product.section}/${product.clothingType}/${product.id}`} className="w-full h-full">
+          <Link
+            key={product.id}
+            href={`/shop/${product.section}/${product.clothingType}/${product.id}`}
+            className="w-full h-full"
+          >
             <li key={product.id} className="flex items-center gap-4 p-4 border-b border-gray-200">
               <Image
                 src={product.imageUrl[0]}

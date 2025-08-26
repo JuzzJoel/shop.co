@@ -18,7 +18,7 @@ function Footer() {
                 </Link>
 
                 <p className="text-sm text-black/60 font-secondary leading-[20px]  ">
-                  We have clothes that suits your style and which you're proud to wear. From women to men.
+                { ` We have clothes that suits your style and which you're proud to wear. From women to men.`}
                 </p>
                 <div className="flex w-full gap-3">
                   <Image

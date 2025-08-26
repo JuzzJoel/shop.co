@@ -7,14 +7,23 @@ import StarRating from "@/ui/cards/StarRating";
 import Prices from "@/ui/cards/Prices";
 import { CartContext } from "@/context/cartContext";
 import Image from "next/image";
+import { type CartItem } from "@/lib/types/types";
 
 export default function ProductDetailPage() {
+  // Declare all Hooks at the top level, unconditionally
+  const [selectedImage, setSelectedImage] = useState(0);
+  const [selectedColor, setSelectedColor] = useState(0);
+  const [selectedSize, setSelectedSize] = useState("");
+  const [quantity, setQuantity] = useState(1);
+  const context = useContext(CartContext);
+
   const params = useParams();
   const path = params?.section ?? [];
 
+  // Validate path and product after Hooks
   if (!Array.isArray(path) || path.length !== 3) return notFound();
-
   const [sectionName, clothingType, id] = path;
+
   const product = products.products.find(
     (p) =>
       p.id.toString() === id &&
@@ -24,16 +33,10 @@ export default function ProductDetailPage() {
 
   if (!product) return notFound();
 
-  const [selectedImage, setSelectedImage] = useState(0);
-  const [selectedColor, setSelectedColor] = useState(0);
-  const [selectedSize, setSelectedSize] = useState("");
-  const [quantity, setQuantity] = useState(1);
-
-  const allImages = [...product.imageUrl];
-
-  const context = useContext(CartContext);
   if (!context) throw new Error("CartContext not found");
   const { addToCart } = context;
+
+  const allImages = [...product.imageUrl];
 
   const handleAddToCart = (e: React.FormEvent) => {
     e.preventDefault();
@@ -60,10 +63,10 @@ export default function ProductDetailPage() {
 
     try {
       const existingCart = localStorage.getItem("cart");
-      let cart = existingCart ? JSON.parse(existingCart) : { products: [] };
+      const cart = existingCart ? JSON.parse(existingCart) : { products: [] };
 
       const existingProductIndex = cart.products.findIndex(
-        (p: any) => p.id === cartData.id && p.color[0] === cartData.color[0] && p.size[0] === cartData.size[0],
+        (p: CartItem) => p.id === cartData.id && p.color[0] === cartData.color[0] && p.size[0] === cartData.size[0],
       );
 
       if (existingProductIndex !== -1) {
@@ -79,8 +82,8 @@ export default function ProductDetailPage() {
   };
 
   return (
-    <div className=" w-screen flex items-center justify-center bg-white">
-      <section className="container w-9/10  mx-auto max-w-[77.5rem] h-[800px] md:h-[500px] lg:h-[530px]">
+    <div className="w-screen flex items-center justify-center bg-white">
+      <section className="container w-9/10 mx-auto max-w-[77.5rem] h-[800px] md:h-[500px] lg:h-[530px]">
         <div className="flex flex-col w-full h-full gap-2 md:flex-row md:gap-8 lg:gap-10">
           {/* Product Images */}
           <div className="h-full flex flex-col md:flex-row w-full gap-3 md:w-1/2">
@@ -104,7 +107,7 @@ export default function ProductDetailPage() {
             </div>
 
             {/* Thumbnails */}
-            <div className="flex w-full md:flex-[1]  md:order-1 gap-2 md:flex-col ">
+            <div className="flex w-full md:flex-[1] md:order-1 gap-2 md:flex-col">
               {allImages.map((img, i) => (
                 <button
                   key={i}
@@ -126,14 +129,21 @@ export default function ProductDetailPage() {
           </div>
 
           {/* Product Info */}
-          <div className=" w-full md:w-1/2">
-            <div className=" ">
-              <h1 className="text-3xl lg:text-[40px] font-black font-primary uppercase mb-3 text-black">{product.name}</h1>
+          <div className="w-full md:w-1/2">
+            <div>
+              <h1 className="text-3xl lg:text-[40px] font-black font-primary uppercase mb-3 text-black">
+                {product.name}
+              </h1>
               <StarRating rating={product.rating} size={25} variant="ProductDetail" />
             </div>
 
-            <div className="">
-              <Prices current={product.price.new} old={product.price.old} discount={product.discount} fontSize="text-[32px]"/>
+            <div>
+              <Prices
+                current={product.price.new}
+                old={product.price.old}
+                discount={product.discount}
+                fontSize="text-[32px]"
+              />
             </div>
 
             <div className="space-y-2">

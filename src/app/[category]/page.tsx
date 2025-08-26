@@ -1,14 +1,11 @@
 "use client";
-import React, { useContext } from "react";
+import React from "react";
 import { useParams } from "next/navigation";
 import Filter from "./components/Filter";
 import Pagination from "./components/Pagination";
 import ProductDisplay from "./components/ProductDisplay";
 import products from "@/data/randomized_products.json";
-import { CategoryContextValue } from "@/lib/types/types";
-
-const CategoryContext = React.createContext<CategoryContextValue | null>(null);
-export const useCategory = (): CategoryContextValue | null => useContext(CategoryContext);
+import CategoryContext from "@/context/CategoryContext";
 
 const Page = () => {
   const params = useParams().category;
@@ -17,7 +14,6 @@ const Page = () => {
     console.error("Section parameter is missing");
     return <h1>LOADING...</h1>;
   }
-
   const filteredProducts = products.products.filter((product) => product.style.toLowerCase() === category);
 
   return (

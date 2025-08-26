@@ -44,7 +44,7 @@ export interface PhotoGalleryProps {
   data: Product[];
   buttonText?: string;
   filterProp?: keyof Product;
-  filterValue?: any;
+  filterValue?: string | number | boolean;
   sortProp?: keyof Product;
   sortOrder?: "asc" | "desc";
   limit?: number;
@@ -71,7 +71,7 @@ export interface CartItemProps {
 export interface ProductListProps {
   data: Product[];
   filterProp?: keyof Product;
-  filterValue?: any;
+  filterValue?: string | number | boolean;
   sortProp?: keyof Product;
   sortOrder?: "asc" | "desc";
   limit?: number;
@@ -100,12 +100,6 @@ export interface ProductCardProps {
   product: Product;
 }
 
-export interface SearchBarDisplayProps {
-  searchItem: (search: string) => void;
-  recentSearches: string[];
-  searchResults: any[];
-}
-
 export interface MultiRangeSliderProps {
   min: number;
   max: number;
@@ -124,4 +118,9 @@ interface CurrencyFormatterProps {
   value: number;
   fontSize?: string;
 }
-
+export interface SearchBarDisplayProps {
+  searchItem: string;
+  setSearchItem: (searchItem: string) => void;
+  recentSearches: string[];
+  searchResults: Product[];
+}

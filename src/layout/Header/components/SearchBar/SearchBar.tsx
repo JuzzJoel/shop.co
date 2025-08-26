@@ -65,7 +65,8 @@ const SearchBar = () => {
             <SearchBarResults searchResults={searchResults} />
           ) : (
             <SearchBarDisplay
-              searchItem={setSearchItem}
+              searchItem={searchItem}
+              setSearchItem={setSearchItem}
               recentSearches={recentSearches}
               searchResults={searchResults}
             />

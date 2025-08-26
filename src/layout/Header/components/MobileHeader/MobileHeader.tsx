@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
-import MobileSearchBar from "./MobileSearchBar";
 import Image from "next/image";
 
 function MobileHeader() {
